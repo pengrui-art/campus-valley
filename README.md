@@ -11,7 +11,7 @@ conda create -n valley python=3.12
 2. 下载必要的库文件
 
    ```bash
-   pip install gradio websocket dwspark
+   pip install gradio websocket-client dwspark
    ```
 3. 运行gradio界面
 
