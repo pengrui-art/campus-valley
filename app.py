@@ -28,7 +28,7 @@ def pipeline(image_path):
 
     # 调用 Retro Diffusion 生成像素图
     try:
-        output_path = generator.generate_image(description, save_path='./output_image/result.png')
+        output_path = generator.generate_image(description, save_path=r"./output_image/result.png")
     except Exception as e:
         return f"图像生成失败: {e}", None
 
